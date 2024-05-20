@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./imagessss/IMG_5078.JPG);
+    background-size: cover;
+}
+header{
+    background-color: white;
+}
+#logo{
+    margin-top: 10px;
+    margin-left: 5%;
+}
+.navigation{
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.navigation a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color:yellowgreen;
+    border: 2px solid red ;
+    margin: 5px;
+}
+.navigation a:hover {
+    background-color: teal;
+    color: black;
+}
+.list{
+ /* border: 2px solid red; */
+    color: white;
+    margin: 80px;
+    width: 50%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: left;
+}
+.list h3{
+    margin-bottom: 14px;
+}
+.list li{
+    list-style-type: square;
+    padding: 2px;
+}
+.login{
+    border: 1px solid red;
+    float: right;
+    background-color: beige;
+    margin-top: 60px;
+    height: 15em;
+    margin-right: 15px;
+    padding: 30px;
+}
+#but{
+    background-color: dodgerblue;
+    color: white;
+    width: 165px;
+    border: none;
+    height: 2em;
+}
+.login h2{
+    text-align: center;
+}
+.container{
+    margin-top: 450px;
+    margin-left: 60px;
+}
+.pbox{
+border: 2px solid white;
+float: left;
+width: 20%;
+margin-left: 5px;
+background-color: white;
+padding: 5px;
+height: 12em;
+}
+
+.pbox h3{
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+.pbox p{
+    text-align: justify;
+}
+.pbox a{
+    color: red;
+    text-decoration: none;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 48%;
+    height: 1.5em;
+}
